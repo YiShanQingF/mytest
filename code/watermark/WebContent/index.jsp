@@ -17,8 +17,6 @@
 <input type="radio" name="index_type" value="1">1024
 <br>
 <input type="submit" value="提交" id="watermark" name="watermark">
-
-
 </form>
 
 
