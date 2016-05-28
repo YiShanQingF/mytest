@@ -11,22 +11,12 @@
 <hr>
 <form name="form1" action="${pageContext.request.contextPath}/util_index.action"  method="post" enctype="multipart/form-data">
 
-<table align="center" style="width: 95%">
-	<tr>
-		<td><input type="radio" name="index_type" value="0" checked="checked">图片水印</td>
-		<td><input type="radio" name="index_type" value="1">1024</td>
-	</tr>
-	<tr>
-		<td>&nbsp</td>
-		<td>&nbsp</td>
-	</tr>
-	<tr align="left">
-		<td colspan="2"><input type="submit" value="提交" id="watermark" name="watermark" align="left" /></td>
-	</tr>
-</table>
 
 
+<input type="radio" name="index_type" value="0" checked="checked">图片水印
+<input type="radio" name="index_type" value="1">1024
 <br>
+<input type="submit" value="提交" id="watermark" name="watermark">
 
 
 </form>
